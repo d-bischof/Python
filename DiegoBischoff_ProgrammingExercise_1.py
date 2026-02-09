@@ -4,7 +4,7 @@ def ticketSeller() -> None:
 
     while True:
 
-        ticket = input("Please enter the amount of tickets to buy (max 4): ")
+        ticket = input("You can purchase up to 4 tickets how many would you like?: ")
         try:
         #need to make user enters a non-zero integer that is not over 4
             ticket = int(ticket)
