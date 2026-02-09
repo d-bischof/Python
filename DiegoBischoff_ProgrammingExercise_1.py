@@ -1,6 +1,6 @@
 def ticketSeller() -> None:
 
-    total_tickets: int = 0
+    all_tickets: int = 0
 
     while True:
 
@@ -16,7 +16,7 @@ def ticketSeller() -> None:
             print(e, "Please enter a number")
             continue
 
-        total_tickets += ticket
+        all_tickets += ticket
 
         #enforce our constraint that only 20 tickets are available
         if total_tickets >= 10:
