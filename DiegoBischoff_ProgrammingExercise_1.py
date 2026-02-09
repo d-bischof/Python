@@ -19,7 +19,7 @@ def ticketSeller() -> None:
         total_tickets += ticket
 
         #enforce our constraint that only 20 tickets are available
-        if total_tickets >= 20:
+        if total_tickets >= 10:
             print("Sorry there are no more tickets")
             break
 
